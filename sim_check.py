@@ -42,7 +42,7 @@ def main():
    
    while 1:
       char = f.read(1)
-      if char == ' ': break
+      if char == "\n": break
       else: query[k] = int(char)
       k += 1
       
