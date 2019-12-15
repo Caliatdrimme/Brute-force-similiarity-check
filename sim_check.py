@@ -44,7 +44,9 @@ def main():
       char = f.read(1)
       if char == "\n": break
       elif char == '': break
-      else: query[k] = int(char)
+      else: 
+         print(char)
+         query[k] = int(char)
       k += 1
       
    #print(query)
