@@ -43,6 +43,7 @@ def main():
    while 1:
       char = f.read(1)
       if char == "\n": break
+      elif char == '': break
       else: query[k] = int(char)
       k += 1
       
